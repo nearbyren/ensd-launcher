@@ -9,8 +9,8 @@
 //}
 rootProject.name = "ensd-launcher"
 include ':app'
-include ':pay-module'
-include ':pay-export'
+include ':launcher-module'
+include ':launcher-export'
 
 
 
@@ -21,5 +21,4 @@ include ':pay-export'
 //project(":common-module").projectDir = new File('../ensd-common/common-module')
 
 
-include ':pay-export'
-project(":pay-export").projectDir = new File('../ensd-pay/pay-export')
+

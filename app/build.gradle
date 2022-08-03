@@ -61,6 +61,6 @@ dependencies {
     androidTestImplementation Testing.espresso
     api ThirdLib.Arouter.arouterApi
     kapt ThirdLib.Arouter.arouterCompiler
-    api project(path: ':pay-module')
+    api project(path: ':launcher-module')
 
 }

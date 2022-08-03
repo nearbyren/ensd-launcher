@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="ejiayou.pay">
+    package="ejiayou.launcher">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:name="ejiayou.pay.PayApp"
+        android:name="ejiayou.launcher.PayApp"
         android:allowBackup="true"
         android:theme="@style/Theme.App"
         android:label="@string/app_name"

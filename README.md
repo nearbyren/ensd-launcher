@@ -23,7 +23,7 @@ afterEvaluate {
         publications {
             release(MavenPublication) {
             from components.release
-            groupId = 'ejiayou.pay.module'
+            groupId = 'ejiayou.launcher.module'
             artifactId = 'pay'
             version = '1.0.0'
             }
