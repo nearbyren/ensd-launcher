@@ -1,0 +1,25 @@
+//dependencyResolutionManagement {
+//    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+//    repositories {
+//        google()
+//        mavenCentral()
+//        jcenter() // Warning: this repository is going to shut down soon
+//        maven { url 'https://jitpack.io' }
+//    }
+//}
+rootProject.name = "ensd-launcher"
+include ':app'
+include ':pay-module'
+include ':pay-export'
+
+
+
+//本地调试模块下 请打开对应的模块
+
+
+//include ':common-module'
+//project(":common-module").projectDir = new File('../ensd-common/common-module')
+
+
+include ':pay-export'
+project(":pay-export").projectDir = new File('../ensd-pay/pay-export')
